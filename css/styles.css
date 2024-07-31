@@ -687,6 +687,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .modal-user {
   font-size: 12px;
   line-height: 1.17;
@@ -782,7 +786,6 @@ img {
 }
 
 .modal-check-privacy {
-  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -790,6 +793,7 @@ img {
 
 .modal-check-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
 
 .privacy-link {
