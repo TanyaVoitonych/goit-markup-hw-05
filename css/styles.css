@@ -562,6 +562,9 @@ img {
   gap: 24px;
 }
 
+.footer-subscribe {
+}
+
 .footer-form-input {
   width: 264px;
   height: 40px;
@@ -576,6 +579,7 @@ img {
 }
 
 .footer-btn {
+  font-weight: 500;
   border-radius: 4px;
   padding: 8px 24px;
   background-color: #4d5ae5;
@@ -590,6 +594,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .footer-btn-icon {
