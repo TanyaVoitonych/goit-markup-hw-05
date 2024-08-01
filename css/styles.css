@@ -662,7 +662,7 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close-btn:is(:hover, :focus) .modal-icon-close {
+.modal-close-btn .modal-icon-close:is(:hover, :focus) {
   border: none;
   background-color: #404bbf;
   fill: #ffffff;
